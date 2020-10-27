@@ -1,0 +1,63 @@
+.container {
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+}
+
+.feedback-text {
+    display: inline;
+}
+
+.success {
+    background-color: green;
+    color: white;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
+
+.form-delete {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    background-color: blue;
+    color: rgb(235, 243, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(99, 123, 158);
+    border: none;
+    transition: all 0.2s;
+    margin: 10px 5px;
+}
+
+.btn:active {
+    transform: scale(.95);
+    border: none;
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+.btn-submit {
+    background-color: green;
+}
+
+.btn-edit {
+    font-size: .8rem;
+    padding: 2px;
+}
+
+.btn-x{
+    font-size: .8rem;
+    background-color: red;
+    padding: 2px;
+}
